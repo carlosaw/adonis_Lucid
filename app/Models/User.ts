@@ -11,7 +11,7 @@ export default class User extends BaseModel {
   @column()
   public age: number
 
-  @column({serializeAs: null})
+  @column()
   public password: string
 
   @column.dateTime({ autoCreate: true })
